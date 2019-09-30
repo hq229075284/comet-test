@@ -1,0 +1,16 @@
+{
+  "name": "@util/end-point-push",
+  "version": "1.0.0",
+  "description": "",
+  "main": "long-polling.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mockjs": "^1.0.1-beta3"
+  }
+}
