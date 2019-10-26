@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="border:1px solid;white-space: pre-wrap;"></div>
+    <script>
+        function getData(data) {
+            console.log(data)
+            document.querySelector('div').innerHTML = JSON.stringify(data)
+        }
+    </script>
+    <iframe src="./flush" frameborder="1"></iframe>
+    <!-- <script src="./long-polling.js"></script> -->
+    <!-- <script src="./stream.js"></script> -->
+</body>
+
+</html>
